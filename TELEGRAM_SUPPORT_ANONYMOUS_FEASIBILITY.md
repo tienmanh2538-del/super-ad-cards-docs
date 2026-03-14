@@ -5,7 +5,7 @@
 Làm support trong nhóm Telegram nhưng **nhân viên support không được biết username/contact của khách**. Mô hình tham khảo:
 
 - Nhóm 1: **Leader + Khách + Bot** — khách chỉ có trong nhóm này (chỉ leader thấy được khách).
-- Nhóm 2: **Nhân viên + Bot** (không thêm khách vào; đặt tên/ký hiệu riêng cho mỗi nhóm, ví dụ `[Case #001] Support`). Nếu thêm khách vào nhóm NV thì nhân viên sẽ thấy được khách → mất ẩn danh.
+- Nhóm 2: **Nhân viên + Bot+ Leader** (không thêm khách vào; đặt tên/ký hiệu riêng cho mỗi nhóm, ví dụ `[Case #001] Support`). Nếu thêm khách vào nhóm NV thì nhân viên sẽ thấy được khách → mất ẩn danh.
 - Tin nhắn khách (trong nhóm Leader) → bot sao chép sang **nhóm NV** với format kiểu “Khách: …” (ưu tiên **sao chép**).
 - Tin nhắn nhân viên (trong nhóm NV) → bot sao chép sang **nhóm Leader** (khách đọc tại đó).
 - Tin nhắn có **@username, link Tele, SĐT, hoặc từ khóa** (ib, inbox, whatsapp, tele, telegram, dm, pm, contact...) → gửi thêm vào **nhóm riêng có Leader** để leader kiểm tra
